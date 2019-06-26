@@ -53,5 +53,8 @@ class Student
     student
   end
   
+  def update
+    
+  end
   
 end
