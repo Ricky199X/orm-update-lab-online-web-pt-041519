@@ -49,9 +49,11 @@ class Student
   
   def self.create(name, grade)
     student = Student.new(name, grade)
-    student.save
-    student
+    student.
+    save
+    studentl
   end
+  
   
   def self.new_from_db(row)
     id = row[0]
